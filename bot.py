@@ -18,7 +18,7 @@ print("API_HASH =", Config.API_HASH)
 class autocaption(Client):
     def __init__(self):
         super().__init__(
-            name="Captioner",                    # Session name for the client
+            name="Captioner",                    # Correct argument for session name
             bot_token=Config.BOT_TOKEN,          # Bot token from config
             api_id=Config.API_ID,                # API ID from config
             api_hash=Config.API_HASH,            # API Hash from config
